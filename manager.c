@@ -1,7 +1,7 @@
 #include"manager.h"
 
 void listProduct(Product *slist, int count){
- printf("\nNo\tName\tweight\tprice\tStar Score\tNumber of stars\n");
+ printf("\nNo\tName\tweight\tprice\tStar Score\tNumber of stars\tDelivery\n");
  printf("====================================================\n");
  for(int i =0; i <count ; i++){
      if(slist[i].weight == -1)

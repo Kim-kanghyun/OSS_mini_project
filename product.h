@@ -7,6 +7,7 @@ typedef struct
     int price;
     float starScore;
     int numStar;
+    int method;
 }Product;
 
 int selectMenu(); // 메뉴생성 함수
